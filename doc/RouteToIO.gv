@@ -1,0 +1,7 @@
+digraph toIndistinguishability {
+    "prng"->"sPRG" [label="LPN + Buckitization"]
+    "sPRG"->"ΔRG" ["label"="Partition output into Integers"]
+    "ΔRG"->"Weak FE" ["label"="LWE + inner product"]
+    "Weak FE"->"Full FE" ["label"="Lifting + Amplification"]
+    "Full FE"->"IO" ["label"="MiFE"]
+}

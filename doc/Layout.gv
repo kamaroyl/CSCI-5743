@@ -1,0 +1,14 @@
+digraph modules {
+  node [shape=box];
+  "Indistinguishability Obfuscation" -> "FE"
+  "ΔRG"->{"LWE", "NC⁰"}
+  "FE"->"ΔRG"
+  "LWE"->{"Finite Fields", "Matrix Multiplication", "Random Distribution Sampling"}
+  "Random Distribution Sampling" -> {"Discrete Gaussian Sampling", "Binomial Distribution Sampling"}
+  "Matrix Multiplication" -> {"Barret Transform", "Montgomery Transform", "Number Theoretic Transform"}
+  "Finite Fields" -> "p - 1 divisible by n²"
+  "NC⁰" -> "Graphs"
+  "Graphs"-> {"Hyper Graphs", "Expander Graphs", "Bipartite Graphs"}
+  "FE" -> {"puncturable PRF", "SXDH"}
+  "SXDH"->"Matrix Multiplication"
+}
