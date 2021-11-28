@@ -1,7 +1,7 @@
 #pragma once
 
 #define MAX_POLYNOMIAL_LENGTH 256
-
+/* Taken from Kyber */
 /**
  * Representation of a matrix in
  */

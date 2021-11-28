@@ -5,6 +5,7 @@
 /*
  * Binomial Distribution cumulant generating function:
  * Lambda(eta) = n log(1 + e ^ eta)
+ * Taken from Kyber
  */
 static void centered_binomial_distribution(Polynomial *error, const uint8_t buffer[2*POLYNOMIAL_LENGTH/4])
 {

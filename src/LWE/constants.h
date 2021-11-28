@@ -1,4 +1,5 @@
 #pragma once
+// Based on the constants from Kyber
 // Our Ring is Z/37633 Z
 
 // A 16 bit prime 1001 0011 0000 0001 that is such that q-1 % 256 == 0. Length of secret n can be 256 bits

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdint.h>
+// Taken from Kyber
 /*
 #define MONTGOMERY -1044
 #define PRIME 3329
